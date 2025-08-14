@@ -1,7 +1,7 @@
 'use strict';
 
 // Ambil URL manifest dari window (sudah di-set di HTML)
-const MANIFEST_URL = window.REDEPOP_MANIFEST_URL = "https://cdn.jsdelivr.net/gh/DaniPop88/CpPopStore@610780aed69ec26e8db9e2d1dcccce77d112ad8b/manifest.json";
+const MANIFEST_URL = window.REDEPOP_MANIFEST_URL = "https://cdn.jsdelivr.net/gh/DaniPop88/CpPopStore@cfe6db20cad5a2cee4a19a0a44d118d42eb118c1/manifest.json";
 
 // Container katalog
 const catalog = document.getElementById('catalog');
