@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>REDE POP - Catálogo de Prêmios</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://i.ibb.co/BKdsNcw0/Favicon.png" type="image/x-icon">
+</head>
+<body>
+  
+  <!-- HEADER -->
+  <header class="main-header">
+    <div class="header-content">
+      <div class="logo-text">
+        <span class="logo-text-main">POP</span>
+        <span class="logo-text-subtitle">a plataforma com os maiores bônus do Brasil!</span>
+        <span class="logo-text-slogan">Porque onde Há gratidão, Há generosidade.</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mentor Contact Section -->
+  <div class="mentor-contact-section">
+    <div class="mentor-contact-title">CONTATE O MENTOR PARA OBTER PRÊMIO</div>
+    <div class="mentor-contact-btn-row">
+      <a href="https://poppremio.com/wa" target="_blank" class="mentor-contact-btn whatsapp-btn">
+        <img src="https://i.ibb.co/BHYkmXfs/Whatsapp-Transparent.gif" alt="WhatsApp" class="mentor-contact-icon" />
+        <span>WHATSAPP</span>
+      </a>
+      <a href="https://poppremio.com/tg" target="_blank" class="mentor-contact-btn telegram-btn">
+        <img src="https://i.ibb.co/s9x87GHJ/Telegram-logo.gif" alt="Telegram" class="mentor-contact-icon" />
+        <span>TELEGRAM</span>
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <div class="container">
+      <!-- KATALOG AKAN DIRENDER OTOMATIS DARI manifest.json -->
+      <div id="catalog"></div>
+      <noscript>Ative o JavaScript para ver o catálogo.</noscript>
+    </div>
+  </main>
+
+  <!-- Mentor Contact Section -->
+  <div class="mentor-contact-section">
+    <div class="mentor-contact-title">CONTATE O MENTOR PARA OBTER PRÊMIO</div>
+    <div class="mentor-contact-btn-row">
+      <a href="https://poppremio.com/wa" target="_blank" class="mentor-contact-btn whatsapp-btn">
+        <img src="https://i.ibb.co/BHYkmXfs/Whatsapp-Transparent.gif" alt="WhatsApp" class="mentor-contact-icon" />
+        <span>WHATSAPP</span>
+      </a>
+      <a href="https://poppremio.com/tg" target="_blank" class="mentor-contact-btn telegram-btn">
+        <img src="https://i.ibb.co/s9x87GHJ/Telegram-logo.gif" alt="Telegram" class="mentor-contact-icon" />
+        <span>TELEGRAM</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="main-header">
+    <div class="header-content">
+      <div class="logo-text">
+        <span class="logo-text-subtitle">POP | a plataforma com os maiores bônus do Brasil!</span>
+        <span class="logo-text-slogan">Porque onde Há gratidão, Há generosidade.</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- URL manifest.json (pakai jsDelivr dari repo kamu) -->
+  <script>
+    window.REDEPOP_MANIFEST_URL = "https://cdn.jsdelivr.net/gh/DaniPop88/CpPopStore@29f6e5e8e10f4ceef693068cde98afb2cdbe8d84/manifest.json";
+  </script>
+  <script src="main.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
